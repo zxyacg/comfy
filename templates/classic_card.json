@@ -1,0 +1,66 @@
+{
+    "name": "经典卡片",
+    "width": 1080,
+    "height": 1440,
+    "background_color": [
+        255,
+        255,
+        255
+    ],
+    "zones": [
+        {
+            "id": "main_image",
+            "type": "image",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 1080,
+            "fit": "cover"
+        },
+        {
+            "id": "bottom_bg",
+            "type": "rect",
+            "x": 0,
+            "y": 1080,
+            "width": 1080,
+            "height": 360,
+            "color": [
+                248,
+                248,
+                248
+            ]
+        },
+        {
+            "id": "title",
+            "type": "text",
+            "x": 60,
+            "y": 1120,
+            "width": 960,
+            "height": 100,
+            "font_size": 64,
+            "color": [
+                51,
+                51,
+                51
+            ],
+            "align": "left",
+            "max_lines": 2
+        },
+        {
+            "id": "content",
+            "type": "text",
+            "x": 60,
+            "y": 1240,
+            "width": 960,
+            "height": 160,
+            "font_size": 40,
+            "color": [
+                102,
+                102,
+                102
+            ],
+            "align": "left",
+            "max_lines": 3
+        }
+    ]
+}
